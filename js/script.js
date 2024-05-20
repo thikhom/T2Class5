@@ -40,4 +40,6 @@ function getValues(event){
     }
 
     document.getElementById('totalValue').innerHTML = "R" + totalValue;
+
+    carLog.pop();
 }
